@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title> Sort Numbers </title>
+		<!-- Meta Tags -->
+		<meta charset="utf-8"/>
+		
+		<!-- Stylesheets -->
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<header> <!--Header -->
+			<h1 id="mainHeader">Sort Numbers</h1>
+		</header>
+		<section id="body">
+			<section id="instructions">
+				<p>Sort any amount of numbers by following these instructions:
+					<br>
+					<ol>
+						<li>Click in the text box below to begin entering the numbers.</li>
+						<li>Place a comma between each number. (ex. 41, 57, 10)</li>
+						<li>Click <b>Submit</b> when finished.</li>
+					</ol>
+				</p>
+			</section>
+
+			<section id="mainSection"> 
+				<section>
+					<form onsubmit="return false">
+						<input type="radio" name="sortType" id="bubbleSort">Bubble Sort
+						<input type="radio" name="sortType" id="quickSort"> Quick Sort
+						<br>
+						<input type="text" id="numbers">
+						<input type="submit" id="submit"> 
+					</form>
+				</section>
+				<section id="result">
+				</section>
+			</section>
+		</section>
+		<!-- JavaScript -->
+		<script
+        	src="https://code.jquery.com/jquery-1.12.3.min.js"
+        	integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="
+        	crossorigin="anonymous">
+    	</script>
+
+    	<script type="text/javascript" src="sort.js"></script>
+	</body>
+
+</html>

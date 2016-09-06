@@ -1,0 +1,59 @@
+html{
+	background: url(background.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: auto auto;
+	height:100%;
+	color: white;
+	font-family: tahoma;
+	font-size: 2em;
+	background-color: black;
+}
+body{
+	margin: 0 auto;
+}
+header{
+	background: url(header.jpg);
+	height: 100%;
+	top: -43px;
+	margin:0 auto;
+	width: 100%;
+	position: relative;
+
+}
+h1{
+	padding-left: 40px;
+	padding-top: 20px;
+}
+#mainSection{
+	height:100%;
+	text-align: center;
+	position: relative;
+}
+#result{
+	position: fixed;
+	margin: auto;
+	width:100%;
+	margin-top: 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+#numbers{
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	font-size: 20px;
+	position: relative;
+}
+#instructions:{
+	position: fixed;
+}
+#body{
+	background-color: rgba(0, 0, 0, 0.5);
+	height:100%;
+	border: solid white 2px;
+}
+#submit{
+	height: 25px;
+	border-radius: 4px;
+	padding: 5px;
+}
