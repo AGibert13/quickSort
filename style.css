@@ -39,10 +39,11 @@ h1{
 
 }
 #numbers{
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(50, 100, 100, 0.8);
 	color: white;
 	font-size: 20px;
 	position: relative;
+	border: solid 2px white;
 }
 #instructions:{
 	position: fixed;
@@ -50,10 +51,43 @@ h1{
 #body{
 	background-color: rgba(0, 0, 0, 0.5);
 	height:100%;
-	border: solid white 2px;
+	border: solid grey 2px;
 }
 #submit{
 	height: 25px;
 	border-radius: 4px;
 	padding: 5px;
+}
+img{
+	display:none;
+}
+@media only screen and (max-width: 600px){
+	html{
+		background-color: black;
+		background-image:none;
+		font-size:1rem;
+	}
+	header{
+		text-align: center;
+		background-image: none;
+	}
+	img{
+		display:block;
+		margin: 0 auto;
+		height: 400px;
+		width: 250px;
+		background-color: white;
+		margin-top: 20px;
+	}
+	h1{
+		padding-left:0;
+	}
+	#numbers{
+		background-color: skyblue;
+		color: black;
+		font-size: 1rem;
+	}
+	#result{
+		position: relative;
+	}
 }
